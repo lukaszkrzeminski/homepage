@@ -1,0 +1,44 @@
+.table {
+    overflow-x: auto;
+}
+
+.table__main {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.table__cell {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.table__row:nth-child(even) {
+    background-color: thistle;
+}
+
+.table__row:nth-child(odd) {
+    background-color: white;
+}
+
+.table__row:hover {
+    background-color: pink;
+}
+
+.table__header {
+    background-color: #00abff;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.table__cell--conrerCell {
+    background-color: lightblue;
+}

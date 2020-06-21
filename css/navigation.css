@@ -1,0 +1,26 @@
+.navigation__listElement {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: darkorchid;
+}
+
+.navigation__link:visited {
+    color: deeppink;
+}
+
+.navigation__link:focus {
+    outline: 2px dotted currentColor;
+}
+
+.navigation__link:hover {
+    color: firebrick;
+    text-decoration: underline currentColor;
+}
+
+.navigation__link:active {
+    color: ghostwhite;
+}

@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ddd;
+    font-family: 'Lora', sans-serif;
+}
+
+.newBackground {
+    background-color: hsl(0, 0%, 69%);
+}
+
+.mainHeader {
+    color: #113a6b;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 1px -1px 2px 0px rgb(251, 255, 0);
+}

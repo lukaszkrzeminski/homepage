@@ -1,0 +1,13 @@
+.interaction__header {
+    width: 350px;
+    padding: 6px;
+    background-color: lightseagreen;
+    border-radius: 0 60px 60px 0;
+}
+
+.interaction__changeBackground {
+    padding: 20px 10px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}

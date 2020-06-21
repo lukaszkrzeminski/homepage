@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/interaction.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Łukasz Krzemiński</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="mainHeader">Łukasz Krzemiński</h1>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__listElement">
+                        <a class="navigation__link" href="#o-mnie">O mnie</a>
+                    </li>
+                    <li class="navigation__listElement">
+                        <a class="navigation__link" href="#hobby">W wolnych chwilach</a>
+                    </li>
+                    <li class="navigation__listElement">
+                        <a class="navigation__link" href="#interakcja-js">Pierwsza interakcja</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article class="article">
+                    <h2 class="article__header" id="o-mnie">Kilka słów o mnie</h2>
+                    <img class="article__image" src="https://i.postimg.cc/y6RhWFHd/photo.jpg" alt="Łukasz Krzemiński"
+                        height="250px">
+                    <p class="article__paragraph">Cześć, nazywam się Łukasz, pochodzę z Olesna - małego miasteczka w
+                        województwie
+                        opolskim. Jestem absolwentem Politechniki Wrocławskiej na kierunku <b>Automatyka i
+                            Robotyka</b>. Mam 25 lat i mieszkam we Wrocławiu. Obecnie pracuję w firmie zarządzającej i
+                        monitorującej
+                        sieć bankomatów i wpłatomatów. Od jakiegoś czasu postanowiłem spróbować swoich sił w nauce
+                        <i>Frontendu</i>
+                        aby rozpocząć pracę programisty.</p>
+                </article>
+
+            </section>
+            <section>
+                <article class="article">
+                    <h2 class="article__header" id="hobby">W wolnych chwilach</h2>
+                    <p class="article__paragraph">W czasie wolnym od pracy czy też nauki zajmuję się amatorsko produkcją
+                        domowego piwa.
+                        Póki co mam
+                        na koncie zaledwie 7 warek ale w głowie rodzą się coraz bardziej rozbudowane i szalone pomysły.
+                        Chyba
+                        każdy
+                        lubi
+                        po ciężkim dniu zasiąść wygodnie w fotelu i uraczyć się odpowiednio schłodzonym piwkiem :). Dużą
+                        satysfakcję
+                        sprawia fakt, że mogę poczęstować rodzinę czy znajomych własnym wyrobem!</p>
+                    <img class="article__image"
+                        src="https://media.istockphoto.com/photos/draught-beer-in-glasses-picture-id1040303026?k=6&m=1040303026&s=612x612&w=0&h=ZlIJgK1QAz9KvSo-0i43yDkbgUv-gRRKZQHErr7ZmOc="
+                        alt="Prezentacja piwa" height="250px">
+
+                </article>
+
+                <div class="table">
+                    <table class="table__main">
+                        <caption class="table__caption">Receptura warzonego właśnie piwa</caption>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--conrerCell" scope="col"></th>
+                            <th class="table__cell table__header" scope="col">Surowiec</th>
+                            <th class="table__cell table__header" scope="col">Ilość</th>
+                            <th class="table__cell table__header" scope="col">Jednostka</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row" rowspan="4">Słody</th>
+                            <td class="table__cell">Pale Ale</td>
+                            <td class="table__cell">5</td>
+                            <td class="table__cell">kg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Carawheat</td>
+                            <td class="table__cell">0,3</td>
+                            <td class="table__cell">kg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Carapils</td>
+                            <td class="table__cell">0,5</td>
+                            <td class="table__cell">kg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Płatki owsiane</td>
+                            <td class="table__cell">0,45</td>
+                            <td class="table__cell">kg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row" rowspan="4">Chmiele</th>
+                            <td class="table__cell">Warrior</td>
+                            <td class="table__cell">30</td>
+                            <td class="table__cell">g</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Sabro</td>
+                            <td class="table__cell">60</td>
+                            <td class="table__cell">g</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Citra</td>
+                            <td class="table__cell">60</td>
+                            <td class="table__cell">g</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Galaxy</td>
+                            <td class="table__cell">60</td>
+                            <td class="table__cell">g</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row" rowspan="5">Dodatki</th>
+                            <td class="table__cell">Laktoza</td>
+                            <td class="table__cell">400</td>
+                            <td class="table__cell">g</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Glukoza</td>
+                            <td class="table__cell">100</td>
+                            <td class="table__cell">g</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Ananas</td>
+                            <td class="table__cell">1,6</td>
+                            <td class="table__cell">kg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Banan</td>
+                            <td class="table__cell">1,5</td>
+                            <td class="table__cell">kg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Laska wanilii</td>
+                            <td class="table__cell">2</td>
+                            <td class="table__cell">szt.</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section class="interaction">
+                <h3 class="interaction__header" id="interakcja-js">A tutaj pierwsze kroki z JS:</h3>
+                <button class="interaction__changeBackground js-changeBackgroundButton">Zmień tło na ciemniejsze</button>
+            </section>
+
+        </main>
+        <footer class="footer">Strona wykonana przez Łukasza Krzemińskiego</footer>
+    </div>
+</body>
+
+</html>
